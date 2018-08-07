@@ -26,14 +26,14 @@ For a nice MongoDB GUI tool on Linux, check out Robo3T (https://robomongo.org/do
 
 ## Usage
 
-1. Run a bunch of instances of the logger: `./logger`
-2. Run the ventilator and then press enter: `./ventilator`
+1. Run a bunch of instances of the logger: `python logger.py`
+2. Run the ventilator and then press enter: `python ventilator.py`
 
-To change the behavior of the ventilator process, run `./ventilator --help`:
+To change the behavior of the ventilator process, run `python ventilator.py --help`:
 
 ```
-$ ./ventilator.py --help
-usage: ventilator.py [-h] [-n NUMBER] [-r RATE]
+$ python ventilator.py --help
+usage: ./ventilator.py [-h] [-n NUMBER] [-r RATE]
 
 optional arguments:
   -h, --help            show this help message and exit
