@@ -2,7 +2,7 @@
 
 Distributed database example using ZeroMQ's PUSH/PULL pipelining pattern.
 
-The logger instances each have a connection to the MongoDB database (and can concurrently write into it). The ventilator is a process that outputs messages via PUSH (over TCP). This fair-queues the messages among the logger clients that PULL the messages and then process them (concurrently write the received JSON structures into the MongoDB database).
+In this example, **Logger** instances each have a connection to the MongoDB database (and can concurrently write into it). The **ventilator** is a process that outputs messages via PUSH (over TCP). This fair-queues the messages among the logger clients that PULL the messages and then process them (concurrently write the received JSON structures into the MongoDB database).
 
 
 ## Install
